@@ -17,12 +17,12 @@ Executable:
   name: GOG Galaxy
   icon: gog.svg
   file: GalaxyClient.exe
-  path: Program Files (x86)/GOG Galaxy/GalaxyClient.exe
+  path: Program Files/GOG Galaxy/GalaxyClient.exe
   arguments: --in-process-gpu /runWithoutUpdating /deelevated
   
 Steps:
 - action: install_exe
-  file_name: setup_galaxy_2.0.100.1.exe
-  url: https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_2.0.100.1.exe
-  file_checksum: 80e712c87f447b86f52d6fbb2c587a20
+  file_name: setup_galaxy_2.1.6.29.exe
+  url: https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_2.1.6.29.exe
+  file_checksum: c5d0fdc6a6ccb5144dda4507c2f469d8
   arguments: /s
